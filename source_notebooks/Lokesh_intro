@@ -1,0 +1,46 @@
+'''
+The first assignment using Jupyter
+ 01_first_notebook.ipynb
+ '''
+
+# introduction
+#This is my <i>first<i> Jupyter notebook
+
+
+x=5
+y=6
+z=x+y
+print (z)
+
+
+
+'''
+The second assignment Using jupter
+ 02_numpy_matplotlib.ipynb
+ '''
+ 
+ m = 5
+c = -1
+x = [0, 1, 2, 3, 4, 5, 6]
+y=[m*i+c for i in x]
+print(y)
+
+output:
+
+[-1, 4, 9, 14, 19, 24, 29]
+
+
+import numpy as np
+X=np.array(x)
+Y=(m*X)+c
+print(Y)
+
+output:
+
+[-1  4  9 14 19 24 29]
+
+
+import matplotlib.pyplot as pyt
+pyt.scatter(X,Y)
+
+
