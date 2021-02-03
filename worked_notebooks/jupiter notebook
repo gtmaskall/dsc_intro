@@ -1,0 +1,10 @@
+name = input("introduction")
+print("This is my first Jupyter notebook: ")
+introduction  = This is my first Jupiter notebook
+name = input("first")
+print("first", italic=true)
+x = 5
+y = 6
+z = x+y
+input("z")
+print("z = x+y: ")
